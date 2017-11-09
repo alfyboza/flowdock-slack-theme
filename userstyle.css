@@ -81,6 +81,14 @@ nav .external-link {
   font-size: 11pt !important;
 }
 
+.chat-message .bubble-container {
+  margin-top: 3px !important;
+}
+
+.chat-message .avatar-container {
+  margin-top: 8px !important;
+}
+
 .chat-message.date-separator::before {
   border: none !important;
   color: black !important;
