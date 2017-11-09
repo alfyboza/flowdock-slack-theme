@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Mono');
-
 core-colors {
   color: #4D394B #3E313C #4C9689 #FFFFFF #3E313C #FFFFFF #38978D #EB4D5C;
 }
 
 body {
-  font-family: Lato, sans-serif !important;
+  font-family: Helvetica, sans-serif !important;
 }
 
 /* Toolbar */
@@ -44,6 +42,7 @@ nav {
 .tab-name {
   background-color: transparent !important;
   color: lightgray !important;
+  font-size: 11pt;
 }
 
 .org-name {
@@ -78,6 +77,8 @@ nav .external-link {
 /* CHAT */
 .chat-message {
   border: none !important;
+  color: black !important;
+  font-size: 11pt !important;
 }
 
 .chat-message.date-separator::before {
@@ -95,7 +96,23 @@ nav .external-link {
   background-color: rgba(118, 202, 135, 0.4) !important;
 }
 
+.message-input {
+  color: black !important;
+}
+
+.mention.tag {
+  color: black !important;
+}
+
+.more-messages.below {
+  font-size: 11pt !important;
+}
+
+.chat-message blockquote {
+  color: #666 !important;
+}
+
 /* CODE */
-code, pre, kbd, pre, samp {
-  font-family: "Roboto Mono" !important;
+.chat-message code, pre, kbd, pre, samp {
+  font-family: "Source Code Pro" !important;
 }
