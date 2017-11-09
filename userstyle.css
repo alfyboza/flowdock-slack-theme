@@ -43,6 +43,7 @@ nav {
   background-color: transparent !important;
   color: lightgray !important;
   font-size: 11pt;
+  text-overflow: ellipsis !important;
 }
 
 .org-name {
