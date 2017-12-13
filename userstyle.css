@@ -24,6 +24,7 @@ body {
 /* Tabs */
 nav {
   background: #4D394B !important;
+  width: 245px !important;
 }
 
 .tab.current > .tab-link {
@@ -69,6 +70,7 @@ nav .external-link {
 
 .nav-footer {
   background-color: #3E313C !important;
+  width: 245px !important;
 }
 
 .tab-list-shadow {
